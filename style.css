@@ -1,0 +1,12 @@
+/* Electrical — Color overrides only. All structure in _shared/ */
+@import url('css/base.css');
+@import url('css/components.css');
+
+:root {
+  --clr-primary:    #92400E;
+  --clr-primary-dk: #6b2f0a;
+  --clr-accent:     #FCD34D;
+}
+
+/* Accent buttons readable on amber */
+.btn-accent { color: var(--clr-gray-900); }
